@@ -34,7 +34,7 @@
             <ListView
                 android:id="@+id/listView1"
                 android:layout_width="match_parent"
-                android:layout_height="364dp" >
+                android:layout_height="145dp" >
             </ListView>
         </LinearLayout>
     </ScrollView>
@@ -46,5 +46,23 @@
         android:layout_alignBaseline="@+id/textView1"
         android:layout_alignRight="@+id/scrollView1"
         android:text="Populate" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/scrollView1"
+        android:layout_marginLeft="23dp"
+        android:layout_marginTop="104dp"
+        android:text="Button" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button2"
+        android:layout_centerHorizontal="true"
+        android:text="TextView" />
 
 </RelativeLayout>
